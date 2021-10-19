@@ -1,0 +1,71 @@
+
+.container{
+    font-family: 'Open Sans', sans-serif;
+    background-color: wheat;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.question{
+    
+    width:90%; 
+    height: 7%; 
+    text-align: center ; 
+    padding:1.5rem;
+    background-color:#618685; 
+    border-radius: 1rem;
+    color: white;
+    margin: 1rem;
+}
+
+input[type=radio]{
+    display:none;
+} 
+
+input[type="radio"]:checked + label {
+    background-color: lime;  
+}
+
+.content{
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-outline-success{
+    color:white;
+}
+
+#answerButton{
+    width: 40%; 
+    height: 15%;
+    margin:1.5rem auto;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+}
+#trueAnswer{
+    background-color: green;
+    visibility: hidden;
+    color:white;
+    width: 100%;
+    text-align: center;
+    margin:1.5rem auto;
+    padding:5px;
+    border-radius: 0.5rem;
+
+}
+#falseAnswer{
+    background-color: red;
+    visibility: hidden;
+    color:white;
+    width: 100%;
+    text-align: center;
+    margin:1.5rem auto;
+    padding:5px;
+    border-radius: 0.5rem;
+
+}
