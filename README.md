@@ -1,1 +1,1 @@
-# Coktan-Secmeli
+# Çoktan Seçmeli JS Projesi
